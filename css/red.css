@@ -60,6 +60,15 @@ body {
 	color:#000;
 }
 
+.bluest {
+	color:#009;
+	font-weight:bold
+}
+
+.redst {
+	color:#dc143c;
+	font-weight:bold}
+
 .contact {
 	background-image: none;
 	background-color:#e9e9e9;
@@ -188,7 +197,7 @@ h2 {
 p {
 	width:500px;
 	margin-left:40px;
-	float:right;	
+	float:right;
 }
 
 p img {
@@ -261,7 +270,7 @@ ol {
 	width:500px;
 	margin-left:40px;
 	list-style: decimal;
-	
+
 }
 
 ol li {
@@ -274,7 +283,7 @@ dl {
 	float:right;
 	width:500px;
 	margin-left:40px;
-	
+
 }
 
 dt {
@@ -295,7 +304,7 @@ ul.unordered {
 	float:right;
 	width:500px;
 	margin-left:40px;
-	
+
 }
 
 ul.unordered li {
@@ -315,7 +324,7 @@ ul.info {
 	float:right;
 	width:500px;
 	margin-left:40px;
-	list-style-type: none; 
+	list-style-type: none;
 }
 
 ul.info li {
@@ -339,7 +348,7 @@ ul.skills {
 	margin-left:40px;
 	margin-top:-6px;
 	list-style-type: none;
-	
+
 }
 
 ul.skills li {
@@ -388,14 +397,14 @@ img.portrait {
 	background-image:url(../images/frame.jpg);
 	background-repeat: no-repeat;
 	width:109px;
-	height:109px;
+	height:137px;
 	padding-top:20px;
 	padding-left:11px;
 	padding-right:11px;
 	padding-bottom:36px;
 	margin-left:50px;
 	float:left;
-	
+
 }
 
 
@@ -461,16 +470,19 @@ img.portrait {
 	margin-left:6px;
 }
 
+.icon-img {width:23px; height:22px;}
+
 /* TIPSY */
 /* ----------------------------------------- */
 
 .tipsy { padding: 5px; font-size: 10px; background-repeat: no-repeat;  background-image: url(../images/tipsy.gif); }
 .tipsy-inner { padding: 5px 8px 4px 8px; background-color: #711717; color: #fff; max-width: 200px; text-align: center; }
 .tipsy-inner { -moz-border-radius:3px; -webkit-border-radius:3px; }
-.tipsy-north { background-position: top center; }
+.tipsy-north {  background-position: top center; }
 .tipsy-south { background-position: bottom center; margin-bottom:20px; }
 .tipsy-east { background-position: right center; }
 .tipsy-west { background-position: left center; }
+
 
 
 /* COLORBOX */
@@ -535,7 +547,7 @@ img.portrait {
 #message a {
 	color: #fff;
 }
-	
+
 /* ELEMENTS */
 /* ----------------------------------------- */
 
@@ -703,7 +715,7 @@ textarea:focus {
 	display: block;
 	clear: both;
 	width:90px;
-	height: 33px; 
+	height: 33px;
 	border:none;
 	float:left;
 	margin-left: 80px;

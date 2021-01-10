@@ -5,6 +5,15 @@ body {
 	line-height: 17pt;
 }
 
+.bluest {
+	color:#009;
+	font-weight:bold
+}
+
+.redst {
+	color:#dc143c;
+	font-weight:bold}
+
 .clear {
 	clear:both;
 }
@@ -122,7 +131,7 @@ ul.info {
 	margin-left:40px;
 	background: none;
 	list-style: square;
-	
+
 }
 
 ul.info li {
@@ -160,7 +169,7 @@ ul.skills li {
 
 img.portrait {
 	border:1px solid #000;
-	padding:10px;	
+	padding:10px;
 }
 
 .self {
